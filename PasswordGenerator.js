@@ -12,4 +12,3 @@ function generatePassword(length){
         password += symbols[Math.round(Math.random() * symbols.length - 1)];
     return(password)
 }
-console.log(generatePassword(23))
